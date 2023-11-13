@@ -1,0 +1,71 @@
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-size: 32px;
+}
+
+button {
+  background-color: #313244;
+  color: snow;
+  padding: 2vh 2vw;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+#scoreArea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#scoreArea > p {
+  min-width: 20%;
+  text-align: center;
+  border: 2px solid #11111b;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#btnSection {
+  background-color: #11111b;
+  padding: 2vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.playerName {
+ color: #313244;
+}
+
+.playerName {
+  border-bottom: 1px solid #11111b;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 5px 10px;
+  background-color: #89dceb;
+}
+
+.playerScore {
+  color: snow;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 5px 10px;
+  background-color: #11111b;
+}
+
+.btnBox {
+  display: flex;
+  gap: 1vw;
+}
+
+.won {
+  color: #a6e3a1;
+}
+
+.lost {
+  color: #f38ba8;
+}
